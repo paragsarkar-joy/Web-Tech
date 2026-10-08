@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <!-- 1. Full Name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text"
+               id="fullname"
+               name="fullname"
+               placeholder="Enter your full name"
+               required>
+        <br><br>
+
+        <!-- 2. Email -->
+        <label for="email">Email:</label>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+        <br><br>
+
+        <!-- 3. Password -->
+        <label for="password">Password:</label>
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter your password"
+               required>
+        <br><br>
+
+        <!-- 4. Age -->
+        <label for="age">Age:</label>
+        <input type="number"
+               id="age"
+               name="age"
+               placeholder="Enter your age">
+        <br><br>
+
+        <!-- 5. Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date"
+               id="dob"
+               name="dob">
+        <br><br>
+
+        <!-- 6. Gender -->
+        <label>Gender:</label>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <!-- 7. City -->
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Sylhet">Sylhet</option>
+        </select>
+
+        <br><br>
+
+        <!-- 8. Hobbies -->
+        <label>Hobbies:</label>
+
+        <input type="checkbox"
+               id="reading"
+               name="hobbies"
+               value="Reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox"
+               id="cricket"
+               name="hobbies"
+               value="Cricket">
+        <label for="cricket">Cricket</label>
+
+        <input type="checkbox"
+               id="music"
+               name="hobbies"
+               value="Music">
+        <label for="music">Music</label>
+
+        <br><br>
+
+        <!-- 9. About Yourself -->
+        <label for="about">About Yourself:</label>
+        <br>
+        <textarea id="about"
+                  name="about"
+                  rows="5"
+                  cols="40"
+                  placeholder="Write a few lines about yourself"></textarea>
+
+        <br><br>
+
+        <!-- 10. Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
